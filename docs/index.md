@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: what is this
+heroText: 再试一下自动集成
 tagline: 🚀一款简洁高效的VuePress 知识管理&博客 主题
 actionText: 开始使用 →
 actionLink: /pages/a2f161/
