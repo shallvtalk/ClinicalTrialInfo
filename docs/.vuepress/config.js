@@ -32,13 +32,7 @@ module.exports = {
             { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
           ] },
           { text: '伦理法规', items: [
-            { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
-            { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
-            { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
-            { text: '部署', link: '/pages/0fc1d2/' },
-            { text: '关于写文章和H1标题', link: '/pages/9ae0bd/' },
-            { text: '关于博客搭建与管理', link: '/pages/26997d/' },
-            { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
+            { text: '质量保证', link: '/pages/8827eb/' },
           ] },
         ]
       },
@@ -79,7 +73,7 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: 'Moximoxi', // 必需
+      name: 'Weithurd', // 必需
     },
     footer: { // 页脚信息
       createYear: 2023, // 博客创建年份
