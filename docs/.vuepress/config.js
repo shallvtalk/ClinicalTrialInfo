@@ -33,6 +33,7 @@ module.exports = {
           ] },
           { text: '伦理法规', items: [
             { text: '质量保证', link: '/pages/8827eb/' },
+            { text: '研究协议', link: '/pages/31d510/' },
           ] },
         ]
       },
