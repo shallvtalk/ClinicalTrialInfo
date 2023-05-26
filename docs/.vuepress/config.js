@@ -21,11 +21,9 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/da2892/', items: [
+        text: '指南', link: '/pages/26267c/', items: [
           { text: '基础知识', items: [
-            { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
-            { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
-            { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
+            { text: '临床试验简史', link: '/pages/26267c/' },
           ] },
           { text: '伦理法规', items: [
             { text: '质量保证', link: '/pages/8827eb/' },
@@ -33,12 +31,15 @@ module.exports = {
           ] },
         ]
       },
-      { text: '创作', items: [
-        { text: '创作文档', link: '/pages/db78e2/' },
+      {
+        text: 'ICH-GCP', link: '/pages/893f6d/'
+      },
+      { text: '创作', link: '/pages/1645f0/',items: [
+        { text: '创作文档', link: '/pages/1645f0/' },
         { text: 'Markdown 使用教程', link: '/pages/ad247c4332211551/' },
       ] },
-      { text: '案例', link: '/pages/5d571c/' },
-      { text: '问答', link: '/pages/9cc27d/' },
+      // { text: '问答', link: '/pages/9cc27d/' },
+      { text: '资源', link: '/pages/dd41f9/' },
       { text: '赞助', link: '/pages/1b12ed/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）

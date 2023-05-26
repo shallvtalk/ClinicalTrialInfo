@@ -3,6 +3,7 @@ name: CI
 #on: [push]
 
 # 在master分支发生push事件时触发。
+# 方案已弃用，由本地脚本触发
 on:
   push:
     branches:
