@@ -26,10 +26,6 @@ module.exports = {
             { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
             { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
             { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
-            { text: '部署', link: '/pages/0fc1d2/' },
-            { text: '关于写文章和H1标题', link: '/pages/9ae0bd/' },
-            { text: '关于博客搭建与管理', link: '/pages/26997d/' },
-            { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
           ] },
           { text: '伦理法规', items: [
             { text: '质量保证', link: '/pages/8827eb/' },
@@ -37,7 +33,10 @@ module.exports = {
           ] },
         ]
       },
-      { text: '资源', link: '/pages/db78e2/' },
+      { text: '创作', items: [
+        { text: '创作文档', link: '/pages/db78e2/' },
+        { text: 'Markdown 使用教程', link: '/pages/ad247c4332211551/' },
+      ] },
       { text: '案例', link: '/pages/5d571c/' },
       { text: '问答', link: '/pages/9cc27d/' },
       { text: '赞助', link: '/pages/1b12ed/' },
