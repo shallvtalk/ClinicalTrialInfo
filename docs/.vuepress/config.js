@@ -7,7 +7,7 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "VitaClinHub",
+  title: "CTDoc",
   description: '为临床研究者及相关从业者提临床试验设计、数据分析、伦理法规等信息 ',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -21,26 +21,19 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/26267c/', items: [
-          { text: '基础知识', items: [
-            { text: '临床试验简史', link: '/pages/26267c/' },
-          ] },
-          { text: '伦理法规', items: [
-            { text: '质量保证', link: '/pages/8827eb/' },
-            { text: '研究协议', link: '/pages/31d510/' },
-          ] },
-        ]
+        text: '临床试验简史（搭建中）', link: '/pages/77076e/'
       },
       {
-        text: 'ICH-GCP', link: '/pages/893f6d/'
+        text: 'ICH-GCP', link: '/pages/893f6d/',items: [
+          { text: '术语', link: '/pages/893f6d/' },
+          { text: 'ICH GCP 的原则', link: '/pages/75f28a/' },
+        ]
       },
       { text: '创作', link: '/pages/1645f0/',items: [
         { text: '创作文档', link: '/pages/1645f0/' },
         { text: 'Markdown 使用教程', link: '/pages/ad247c4332211551/' },
       ] },
-      // { text: '问答', link: '/pages/9cc27d/' },
       { text: '资源', link: '/pages/dd41f9/' },
-      { text: '赞助', link: '/pages/1b12ed/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -78,7 +71,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2023, // 博客创建年份
-      copyrightInfo: 'Weithurd | MIT License', // 博客版权信息，支持a标签
+      copyrightInfo: 'Weithurd ', // 博客版权信息，支持a标签
     },
     htmlModules,
   },
