@@ -21,7 +21,21 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '临床试验简史（搭建中）', link: '/pages/77076e/'
+        text: '临床试验简史（搭建中）', link: '/pages/075814/',items:[
+          {text:'前言',link:'/pages/075814/'},
+          {text:'方法论发展史',items:[
+            {text:'对照试验',link:'/pages/77076e/'},
+            {text:'盲法试验',link:'/pages/b0e5ff/'},
+            {text:'随机试验',link:'/pages/de6f3e/'},
+            {text:'重复试验',link:'/pages/f69ef3/'},
+          ]},
+          // {
+          //   text:'伦理法规发展史',items:[]
+          // },
+          // {
+          //   text:'产业化与工业革命发展史',items:[]
+          // },
+        ]
       },
       {
         text: 'ICH-GCP', link: '/pages/893f6d/',items: [
