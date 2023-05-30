@@ -29,9 +29,14 @@ module.exports = {
             {text:'随机试验',link:'/pages/de6f3e/'},
             {text:'重复试验',link:'/pages/f69ef3/'},
           ]},
-          // {
-          //   text:'伦理法规发展史',items:[]
-          // },
+          {
+            text:'伦理法规发展史',items:[
+              {text:'前言',link:'/pages/19c76d/'},
+              {text:'《丛林》与《纯净食品和药品法案》',link:'/pages/662785/'},
+              {text:'“磺胺”与《食品、药品、化妆品法》',link:'/pages/8b89e0/'},
+              {text:'“反应停”与《科夫沃-哈里斯修正案》',link:'/pages/4d5e1d/'},
+            ]
+          },
           // {
           //   text:'产业化与工业革命发展史',items:[]
           // },
