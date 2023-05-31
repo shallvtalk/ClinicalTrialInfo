@@ -35,6 +35,10 @@ module.exports = {
               {text:'《丛林》与《纯净食品和药品法案》',link:'/pages/662785/'},
               {text:'“磺胺”与《食品、药品、化妆品法》',link:'/pages/8b89e0/'},
               {text:'“反应停”与《科夫沃-哈里斯修正案》',link:'/pages/4d5e1d/'},
+              {text:'医生审判与《纽伦堡法典》',link:'/pages/d6dba5/'},
+              {text:'《赫尔辛基宣言》',link:'/pages/1cdba6/'},
+              {text:'贝尔蒙报告》',link:'/pages/cd26f4/'},
+              {text:'药物临床试验质量管理规范GCP的诞生》',link:'/pages/db697e/'},
             ]
           },
           // {
@@ -88,10 +92,10 @@ module.exports = {
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: 'Weithurd', // 必需
     },
-    footer: { // 页脚信息
-      createYear: 2023, // 博客创建年份
-      copyrightInfo: 'Weithurd ', // 博客版权信息，支持a标签
-    },
+    // footer: { // 页脚信息
+    //   createYear: 2023, // 博客创建年份
+    //   copyrightInfo: 'Weithurd ', // 博客版权信息，支持a标签
+    // },
     htmlModules,
   },
 
