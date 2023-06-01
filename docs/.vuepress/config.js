@@ -41,15 +41,28 @@ module.exports = {
               {text:'药物临床试验质量管理规范GCP的诞生》',link:'/pages/db697e/'},
             ]
           },
-          // {
-          //   text:'产业化与工业革命发展史',items:[]
-          // },
+          {
+            text:'产业化与工业革命发展史',items:[
+              {text:'前言',link:'/pages/289e7f/'},
+              {text:'CRO,SMO,CRA,CRC的诞生',link:'/pages/60f385/'},
+              {text:'GCP的国际化与ICH-GCP',link:'/pages/500026/'},
+              {text:'ICH-GCP的核心原则',link:'/pages/de85e0/'},
+              {text:'临床试验的全球化',link:'/pages/4481d3/'},
+              {text:'国际医学科学组织理事会CIOMS',link:'/pages/0296ef/'},
+            ]
+          },
         ]
       },
       {
         text: 'ICH-GCP', link: '/pages/893f6d/',items: [
           { text: '术语', link: '/pages/893f6d/' },
           { text: 'ICH GCP 的原则', link: '/pages/75f28a/' },
+          { text: '机构评审委员会、独立的伦理委员会(IRB、IEC)', link: '/pages/093009/' },
+          { text: '研究者', link: '/pages/317f4e/' },
+          { text: '申办者', link: '/pages/6c338b/' },
+          { text: '临床试验方案和方案的修改', link: '/pages/a714ac/' },
+          { text: '研究者手册', link: '/pages/02d370/' },
+          { text: '临床试验必需文件', link: '/pages/0a1c05/' },
         ]
       },
       { text: '创作', link: '/pages/1645f0/',items: [
