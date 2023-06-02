@@ -21,7 +21,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '临床试验简史（搭建中）', link: '/pages/075814/',items:[
+        text: '临床试验简史', link: '/pages/075814/',items:[
           {text:'前言',link:'/pages/075814/'},
           {text:'方法论发展史',items:[
             {text:'对照试验',link:'/pages/77076e/'},
@@ -49,6 +49,10 @@ module.exports = {
               {text:'ICH-GCP的核心原则',link:'/pages/de85e0/'},
               {text:'临床试验的全球化',link:'/pages/4481d3/'},
               {text:'国际医学科学组织理事会CIOMS',link:'/pages/0296ef/'},
+              {text:'信息化',link:'/pages/1a315a/'},
+              {text:'适应性设计与精准医学',link:'/pages/e03ac8/'},
+              {text:'在阳光下博弈',link:'/pages/906f3d/'},
+              {text:'技术革命',link:'/pages/78800f/'},
             ]
           },
         ]
@@ -114,31 +118,8 @@ module.exports = {
 
   // 插件
   plugins: [
-    // [require('./plugins/love-me'), { // 鼠标点击爱心特效
-    //   color: '#11a8cd', // 爱心颜色，默认随机色
-    //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-    // }],
 
     ['fulltext-search'], // 全文搜索
-
-    // ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-    //   thirdparty: [ // 可选，默认 []
-    //     {
-    //       title: '在GitHub中搜索',
-    //       frontUrl: 'https://github.com/search?q=', // 搜索链接的前面部分
-    //       behindUrl: '' // 搜索链接的后面部分，可选，默认 ''
-    //     },
-    //     {
-    //       title: '在npm中搜索',
-    //       frontUrl: 'https://www.npmjs.com/search?q=',
-    //     },
-    //     {
-    //       title: '在Bing中搜索',
-    //       frontUrl: 'https://cn.bing.com/search?q='
-    //     }
-    //   ]
-    // }],
-
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
@@ -154,9 +135,6 @@ module.exports = {
     }],
     ['demo-block', { // demo演示模块 https://github.com/xiguaxigua/vuepress-plugin-demo-block
       settings: {
-        // jsLib: ['http://xxx'], // 在线示例(jsfiddle, codepen)中的js依赖
-        // cssLib: ['http://xxx'], // 在线示例中的css依赖
-        // vue: 'https://fastly.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
         jsfiddle: false, // 是否显示 jsfiddle 链接
         codepen: true, // 是否显示 codepen 链接
         horizontal: false // 是否展示为横向样式
